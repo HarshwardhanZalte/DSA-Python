@@ -10,3 +10,5 @@ for i in n:
 for num in m:
     print(num, "occurs", hash_list[num], "times")
 
+
+# Time Complexity: O(n + m) where n is the number of elements in the first list and m is the number of unique elements in the second list

@@ -1,16 +1,13 @@
-def palindromeNumber(num):
-    n = num
-    rev = 0
-    if num < 0:
-        return False
-    while num != 0:
-        rem  = num % 10
-        rev = (rev * 10) + rem
-        num = num // 10
-    if n == rev:
-        return True
-    else:
-        return False
+def palindromeNumber(n):
+    original = n
+    reversed_num = 0
+    
+    while n > 0:
+        digit = n % 10
+        reversed_num = reversed_num * 10 + digit
+        n //= 10
+    
+    return original == reversed_num
     
 n = input("Enter a number: ")
 print("Is it a palindrome number: ", palindromeNumber(int(n)))

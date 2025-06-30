@@ -23,3 +23,6 @@ def fun(arr, l, r):
 n = [1, 2, 3, 4, 5]
 reverseSubArray(n, 1, 4)
 print(n)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

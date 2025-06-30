@@ -8,3 +8,6 @@ def sumOfSeries(n):
 
 n = int(input("Enter a number: "))
 print("Sum of series is: ", sumOfSeries(n))
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

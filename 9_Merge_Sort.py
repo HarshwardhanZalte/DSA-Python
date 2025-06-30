@@ -62,3 +62,6 @@ def merge_Sort(arr):
 
 arr = [64, 34, 25, 12, 22, 11, 90]
 print(merge_Sort(arr))
+
+# Time Complexity: O(n log n)
+# Space Complexity: O(n)

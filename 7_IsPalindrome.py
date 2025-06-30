@@ -8,3 +8,6 @@ def isPalindrome(s):
 n = input("Enter a string: ")
 r = isPalindrome(n)
 print(r)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

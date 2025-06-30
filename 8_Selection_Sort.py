@@ -11,3 +11,6 @@ def selectionSort(arr):
 
 arr = [64, 34, 25, 12, 22, 11, 90]
 print(selectionSort(arr))
+
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)

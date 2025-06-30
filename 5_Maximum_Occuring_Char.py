@@ -17,3 +17,6 @@ for i in freq:
         res = i
 
 print(res,"=",max)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

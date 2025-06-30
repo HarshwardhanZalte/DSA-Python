@@ -8,3 +8,6 @@ def reverserNumber(num):
 
 n = input("Enter a number to reverser: ")
 print("Reverser number is: ", reverserNumber(int(n)))
+
+# Time Complexity: O(d) where d is the number of digits in the number
+# Space Complexity: O(1) as we are using a constant amount of space

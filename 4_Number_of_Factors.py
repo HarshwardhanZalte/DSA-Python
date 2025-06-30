@@ -10,3 +10,6 @@ def countFactors (n):
 
 n = int(input("Enter Number:"))
 print("Number of factors:",countFactors(n))
+
+# Time Complexity: O(n) where n is the number of factors of the number
+# Space Complexity: O(n) as we are storing the factors in

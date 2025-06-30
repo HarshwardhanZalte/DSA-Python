@@ -19,3 +19,6 @@ def fib(n):
 
 n = int(input("Enter a number: "))
 print(fib(n))
+
+# Time Complexity: O(2^n)
+# Space Complexity: O(n)

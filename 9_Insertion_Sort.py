@@ -11,3 +11,6 @@ def insertionSort(num):
 
 n = [64, 34, 25, 12, 22, 11, 90]
 print(insertionSort(n))
+
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)

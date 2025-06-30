@@ -18,3 +18,5 @@ def armstrongNumber(num):
 n = input("Enter a number: ")
 print("Is it an Armstrong number: ", armstrongNumber(int(n)))
 
+# Time Complexity: O(d) where d is the number of digits in the number
+# Space Complexity: O(1) as we are using a constant amount of space

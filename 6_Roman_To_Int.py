@@ -18,3 +18,6 @@ def romanToInt(s):
 
 n = input("Enter a roman number: ")
 print("Integer number is: ", romanToInt(n.upper))
+
+# Time Complexity: O(n)
+# Space Complexity: O(1)

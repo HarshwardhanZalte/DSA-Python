@@ -8,3 +8,6 @@ def printHello(n):
 
 n = int(input("Enter a number: "))
 printHello(n)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

@@ -7,3 +7,6 @@ def printNos(n):
 
 n = int(input("Enter a number: "))
 printNos(n)
+
+# Time Complexity: O(n)
+# Space Complexity: O(n)

@@ -11,3 +11,6 @@ def isPrime(n):
 
 n = int(input("Enter a number: "))
 print("Is it a prime number: ", isPrime(n))
+
+# Time Complexity: O(sqrt(n))
+# Space Complexity: O(1)
