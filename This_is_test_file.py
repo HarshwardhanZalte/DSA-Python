@@ -9,8 +9,17 @@
 #     print("False")
 
 
-def printNo(n):
-    print(n)
-    printNo(n+1)
+# def printNo(n):
+#     print(n)
+#     printNo(n+1)
 
-printNo(1)
+# printNo(1)
+
+
+class Car:
+    def sayHello(self):
+        print(self,"Hello")
+
+
+c1 = Car()
+c1.sayHello()
