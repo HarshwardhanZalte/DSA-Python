@@ -9,3 +9,6 @@ def rotate(matrix):
 a = [[1,2,3],[4,5,6],[7,8,9]]
 rotate(a)
 print(a)
+
+# Time Complexity: O(n^2)
+# Space Complexity: O(1)

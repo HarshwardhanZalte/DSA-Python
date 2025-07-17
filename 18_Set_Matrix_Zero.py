@@ -16,3 +16,6 @@ def setMatrixZero(matrix):
 
 matrix = [[1,1,1,1],[1,0,1,1],[1,1,0,1],[1,1,1,1]]
 print(setMatrixZero(matrix))
+
+# Time Complexity: O(m*n)
+# Space Complexity: O(m+n)
